@@ -5,7 +5,5 @@ package main
 ) */
 
 func main() {
-
-	// 如何调用自己写的包
-	// array.Array1()
+	myByte()
 }

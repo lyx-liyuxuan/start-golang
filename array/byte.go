@@ -1,8 +1,8 @@
-package array
+package main
 
 import "fmt"
 
-func MyByte() {
+func myByte() {
 	// 定义byte数组
 	var a [3]byte = [3]byte{'a', 'b', 'c'}
 
