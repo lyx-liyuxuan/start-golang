@@ -1,0 +1,6 @@
+hello go
+hello java
+hello python
+go go go
+nice to meet you
+are you ok

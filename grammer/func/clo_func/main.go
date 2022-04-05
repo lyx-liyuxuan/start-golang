@@ -21,7 +21,7 @@ func main() {
 	fmt.Println(accumulator())
 	// 打印累加器的函数地址
 	fmt.Printf("%p\n", &accumulator)
-	// 创建一个累加器, 初始值为1
+	// 创建一个累加器, 初始值为1, accumulator2就是函数了
 	accumulator2 := Accumulate(10)
 	// 累加1并打印
 	fmt.Println(accumulator2())
