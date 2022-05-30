@@ -13,6 +13,7 @@ func Accumulate(value int) func() int {
 		return value
 	}
 }
+
 func main() {
 	// 创建一个累加器, 初始值为1
 	accumulator := Accumulate(1)

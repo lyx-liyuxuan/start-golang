@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"testing"
 )
+
 func TestFibList(t *testing.T) {
 	var (
 		a int = 1

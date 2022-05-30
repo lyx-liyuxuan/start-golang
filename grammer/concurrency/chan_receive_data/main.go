@@ -18,7 +18,7 @@ func main() {
 			time.Sleep(time.Second)
 		}
 	}()
-	
+
 	// 遍历接收通道数据
 	for data := range ch {
 		// 打印通道数据

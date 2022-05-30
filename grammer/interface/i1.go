@@ -25,7 +25,7 @@ func (w *Worker) getName() string {
 	return w.name
 }
 
-func main1() {
+func test1() {
 	// Student实例转换为Person接口
 	var p Person = &Student{
 		name: "Bob",
@@ -36,10 +36,10 @@ func main1() {
 	fmt.Printf("p: %v\n", p)
 }
 
-func main2() {
+func test2() {
 	var p Person = &Student{
 		name: "Tom",
-		age: 25,
+		age:  25,
 	}
 
 	// 接口转为示例
@@ -48,6 +48,6 @@ func main2() {
 }
 
 func main() {
-	// main1()
-	main2()
+	// test1()
+	test2()
 }

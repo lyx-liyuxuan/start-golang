@@ -14,7 +14,7 @@ func main() {
 
 		fmt.Println("exit goroutine")
 	}()
-	
+
 	fmt.Println("wait goroutine")
 	// 等待匿名goroutine，阻塞接收数据
 	<-ch
